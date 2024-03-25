@@ -37,7 +37,7 @@ int main()
         cout <<"=======================================" << endl;
         cout << "MENU" << endl;
         cout << "1. Penjumlahan" << endl;
-       
+        cout << "2. Pengurangan" << endl;
 
 
 
