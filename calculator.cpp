@@ -30,7 +30,7 @@ float pengurangan(float a, float b)
 
 int main()
 {
-    int pilihan;
+    int pilihan ; 
     
     do
     {
@@ -41,7 +41,20 @@ int main()
         cout << "3. Perkalian" << endl;
         cout << "4. Pengurangan" << endl;
         cout << "5. Exit " << endl;
-        cou << "Masukan pilihan 1/2/3/4/5 = ";
+        cout << "Masukan pilihan 1/2/3/4/5 = ";
+        cin >> pilihan;
+
+        switch(pilihan)
+        {
+            case 1:
+                input();
+                cout << "Hasil Penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+                break;
+                
+
+
+
+        }
 
     }
 
